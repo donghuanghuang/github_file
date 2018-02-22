@@ -1,0 +1,15 @@
+/f/blog
+git init
+git clone https://github.com/donghuanghuang/blog.git
+
+
+/f/blog/blog
+
+git add .
+
+git commit -m "this is my blog"
+
+git remote add origin git@github.com:donghuanghuang/blog.git
+
+git push -u origin master
+
